@@ -14,6 +14,54 @@
 
 
 //Your CSS Here
+/* SCSS HEX */
+$office-green: #077007ff;
+$forest-green: #3b8a42ff;
+$dark-pastel-green: #31bf35ff;
+$malachite: #0bda51ff;
+$sgbus-green: #69e50cff;
+$lawn-green: #81f306ff;
+$mantis: #6cb14aff;
+$kelly-green: #6fac2fff;
+$fern-green: #62773eff;
+
+/* SCSS HSL */
+$office-green: hsla(120, 88%, 23%, 1);
+$forest-green: hsla(125, 40%, 39%, 1);
+$dark-pastel-green: hsla(122, 59%, 47%, 1);
+$malachite: hsla(140, 90%, 45%, 1);
+$sgbus-green: hsla(94, 90%, 47%, 1);
+$lawn-green: hsla(89, 95%, 49%, 1);
+$mantis: hsla(100, 41%, 49%, 1);
+$kelly-green: hsla(89, 57%, 43%, 1);
+$fern-green: hsla(82, 31%, 35%, 1);
+
+/* SCSS RGB */
+$office-green: rgba(7, 112, 7, 1);
+$forest-green: rgba(59, 138, 66, 1);
+$dark-pastel-green: rgba(49, 191, 53, 1);
+$malachite: rgba(11, 218, 81, 1);
+$sgbus-green: rgba(105, 229, 12, 1);
+$lawn-green: rgba(129, 243, 6, 1);
+$mantis: rgba(108, 177, 74, 1);
+$kelly-green: rgba(111, 172, 47, 1);
+$fern-green: rgba(98, 119, 62, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #077007ff, #3b8a42ff, #31bf35ff, #0bda51ff, #69e50cff, #81f306ff, #6cb14aff, #6fac2fff, #62773eff);
+$gradient-right: linear-gradient(90deg, #077007ff, #3b8a42ff, #31bf35ff, #0bda51ff, #69e50cff, #81f306ff, #6cb14aff, #6fac2fff, #62773eff);
+$gradient-bottom: linear-gradient(180deg, #077007ff, #3b8a42ff, #31bf35ff, #0bda51ff, #69e50cff, #81f306ff, #6cb14aff, #6fac2fff, #62773eff);
+$gradient-left: linear-gradient(270deg, #077007ff, #3b8a42ff, #31bf35ff, #0bda51ff, #69e50cff, #81f306ff, #6cb14aff, #6fac2fff, #62773eff);
+$gradient-top-right: linear-gradient(45deg, #077007ff, #3b8a42ff, #31bf35ff, #0bda51ff, #69e50cff, #81f306ff, #6cb14aff, #6fac2fff, #62773eff);
+$gradient-bottom-right: linear-gradient(135deg, #077007ff, #3b8a42ff, #31bf35ff, #0bda51ff, #69e50cff, #81f306ff, #6cb14aff, #6fac2fff, #62773eff);
+$gradient-top-left: linear-gradient(225deg, #077007ff, #3b8a42ff, #31bf35ff, #0bda51ff, #69e50cff, #81f306ff, #6cb14aff, #6fac2fff, #62773eff);
+$gradient-bottom-left: linear-gradient(315deg, #077007ff, #3b8a42ff, #31bf35ff, #0bda51ff, #69e50cff, #81f306ff, #6cb14aff, #6fac2fff, #62773eff);
+$gradient-radial: radial-gradient(#077007ff, #3b8a42ff, #31bf35ff, #0bda51ff, #69e50cff, #81f306ff, #6cb14aff, #6fac2fff, #62773eff);
+/* -------------------------------- */
+    --cassiopeia-color-primary: var(--mantis);
+	--cassiopeia-color-link: var(--office-green);
+	--cassiopeia-color-hover: hsl(--lawn-green);
+}
 
 
 
